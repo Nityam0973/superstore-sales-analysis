@@ -1,8 +1,8 @@
 # Superstore Sales Analysis
 
 ## Overview
-Analyzed 9,800 rows of retail sales data using SQL and Python 
-to derive business insights on regional performance, 
+Analyzed 9,800 rows of retail sales data using SQL and Python
+to derive business insights on regional performance,
 customer behavior, and product trends.
 
 ## Tools Used
@@ -13,16 +13,19 @@ customer behavior, and product trends.
 ## Key Business Questions Answered
 1. Which region generates the highest revenue?
 2. Who are the top 10 customers by revenue?
-3. Which product categories and sub-categories perform best?
+3. Which product categories perform best?
 4. Which states have highest sales?
 5. How do regional sales compare across individual orders?
 6. Which regions perform above average?
+7. Which regions hit their sales targets?
 
 ## Key Insights
 - West region leads with $710K total sales
 - South has highest average order value ($243)
 - Copiers have highest revenue per order in Technology
 - California alone accounts for $446K in sales
+- Central region missed its sales target by $7K
+- East and West exceeded targets by $69K and $60K
 
 ## SQL Concepts Used
 - GROUP BY, ORDER BY, LIMIT
@@ -30,4 +33,4 @@ customer behavior, and product trends.
 - Window Functions (OVER, PARTITION BY)
 - CTEs (Common Table Expressions)
 - Subqueries
-`
+- INNER JOIN across multiple tables
